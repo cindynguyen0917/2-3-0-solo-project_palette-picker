@@ -1,0 +1,129 @@
+* {
+  color: #e3e3e3;
+  /* background-color: #333333; */
+
+
+}
+
+
+body {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  background-color: #181818;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+header {
+
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  display: flex;
+}
+
+
+#form-container {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  border: solid black 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* margin-left: 22rem; */
+  justify-content: center space-around;
+  width: 300px;
+  background-color: #333333;
+  color: #e3e3e3;
+  gap: 15px;
+  padding: 20px;
+}
+
+
+
+fieldset {
+  border: none;
+}
+
+#palette-list {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 30px;
+  /* background-color: #333333; */
+}
+
+li {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  width: 350px;
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px; */
+  background-color: #333333;
+  gap: 10px;
+
+}
+
+.color-container {
+  display: grid;
+  padding-left: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #6b6b6b;
+}
+
+.color-preview {
+  border: solid black 10px;
+  border-top: white solid 10px;
+  border-left: solid white 10px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 5px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+span {
+  color: black;
+}
+
+.color-button {
+  font-size: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 55px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: #6b6b6b;
+}
