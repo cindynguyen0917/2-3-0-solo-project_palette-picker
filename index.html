@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/2-3-0-solo-project_palette-picker/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palette Picker</title>
+  <script type="module" crossorigin src="/2-3-0-solo-project_palette-picker/assets/index-KfyN2hxv.js"></script>
+  <link rel="stylesheet" crossorigin href="/2-3-0-solo-project_palette-picker/assets/index-ks3hvgE5.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Palette Picker</p>
+  </header>
+  <main>
+    <form id="palette-creator" aria-labelledby="pallete-creator-header">
+      <section id="form-container">
+        <h2 id="palette-creator-header">Add A Palette</h2>
+        <div>
+          <label for="palette-title">Palette Title</label>
+          <input type="text" id="palette-title" name="paletteTitle" required>
+        </div>
+        <div>
+          <label for="color-one">Color #1</label>
+          <input type="color" id="color-one" name="colorOne" value="">
+        </div>
+        <div>
+          <label for="color-two">Color #2</label>
+          <input type="color" id="color-two" name="colorTwo" value="">
+        </div>
+        <div>
+          <label for="color-three">Color #3</label>
+          <input type="color" id="color-three" name="colorThree" value="">
+        </div>
+        </div>
+        <fieldset>
+          <legend>Temperature Setting</legend>
+          <input type="radio" id="warm" name="temperature" value="warm">
+          <label for="warm">Warm</label>
+          <input type="radio" id="neutral" name="temperature" value="neutral" checked>
+          <label for="Neutral">Neutral</label>
+          <input type="radio" id="cool" name="temperature" value="cool">
+          <label for="Cool">Cool</label>
+        </fieldset>
+        <button>Create the palette</button>
+      </section>
+    </form>
+    <h2 id="palette-list-header">Palettes</h2>
+    <section id="palette-list-container" aria-labelledby="palette-list">
+      <ul id="palette-list">
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
