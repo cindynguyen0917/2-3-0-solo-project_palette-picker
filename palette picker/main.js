@@ -5,8 +5,8 @@ import { makePaletteCard, intPaletteCards } from './dom-funcs';
 import { deletePalette, handlePaletteForm, copyHexCode } from './event-funcs';
 // const { uuid, title, colors, temperature } = palette
 
-if (getLocalStorageKey('palettes').length === 0 || !getLocalStorageKey('palettes')) {
-  console.log("The array is empty")
+if (!getLocalStorageKey('palettes') || getLocalStorageKey('palettes').length === 0) {
+  // console.log("The array is empty")
   deleteLocalStorageKey('palettes')
   setLocalStorageKey('palettes', palettesFromJSON)
 }
